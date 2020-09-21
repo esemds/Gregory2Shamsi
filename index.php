@@ -142,7 +142,7 @@
                 elseif(in_array($month, $selectMonth[11])){
                     foreach($selectMonth[11] as $key => $val){
                         if($val == strval($month)){
-                            echo ($key+1). " Bahman ";
+                            echo ($key+1). " Esfand ";
                         }
                     }
                 }
@@ -231,7 +231,7 @@
                 elseif(in_array($month, $selectMonthKa[11])){
                     foreach($selectMonthKa[11] as $key => $val){
                         if($val == strval($month)){
-                            echo ($key+1). " Bahman ";
+                            echo ($key+1). " Esfand ";
                         }
                     }
                 }
